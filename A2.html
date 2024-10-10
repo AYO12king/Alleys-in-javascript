@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title></title>
+    </head>
+    <body>
+      <h2>Javascript Alleys Method</h2>
+      <h2>Join() and Pop()</h2>
+      <p>The join() method joins arrey elements into a string and the pop() method removes the last elements from an arrey.</p>
+      <p id="myjoin"></p>
+      <p id="myfirstpop"></p>
+      <p id="mysecondpop"></p>
+      <script>
+        var fruits = ["Banana", "Orange", "Apples", "Mango"];
+        document.getElementById("myjoin").innerHTML = fruits.join(" * ");
+        document.getElementById("myfirstpop").innerHTML = fruits;
+        fruits.pop();
+        document.getElementById("mysecondpop").innerHTML = fruits;
+      </script>
+    </body>
+</html>
